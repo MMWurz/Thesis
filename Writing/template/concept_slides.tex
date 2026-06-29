@@ -1,0 +1,205 @@
+\documentclass[10pt]{beamer}
+\mode<presentation> {
+\usepackage[utf8]{inputenc}
+\usetheme{Berlin}
+
+%\usecolortheme{seahorse}
+\usepackage{multicol}
+\usepackage{adjustbox,lipsum}
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{longtable}
+
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\newcommand{\bn}[1]{{\fontseries{b}\selectfont#1}}
+\usepackage{siunitx}
+
+\sisetup{
+  group-separator = {\,}, 
+  group-minimum-digits=4, 
+  round-mode=places,
+  round-precision=0      
+}
+
+\usepackage[percent]{overpic}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{dateplot}
+\usepackage{pifont}
+
+\usepackage{arydshln}
+\usepackage{xspace}
+\usepackage{eurosym}
+\usepackage[labelformat=empty]{caption}
+\usepackage{appendixnumberbeamer}  % Allows including appendices
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{hyperref}
+
+
+\setbeamersize{text margin left=6mm, text margin right=6mm}
+\setlength{\columnsep}{4mm}
+
+\renewcommand*{\bibfont}{\scriptsize}
+
+
+\usepackage{xcolor} % make sure you have this
+\usepackage{pifont}   % Symbole
+
+\usepackage{float}
+\usepackage[style=numeric,sorting=none,backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+%\setbeamertemplate{bibliography item}{}
+
+\defbibenvironment{shortbib}
+  {\list{}
+     {\setlength{\leftmargin}{0pt}%
+      \setlength{\itemindent}{0pt}%
+      \setlength{\itemsep}{0.1em}}} % smaller space between items
+  {\endlist}
+  {\item}
+
+
+\AtEveryBibitem{%
+  \clearfield{doi}%
+  \clearfield{url}%
+  \clearfield{note}%
+  \clearfield{publisher}%
+  \clearfield{pages}%
+  \clearfield{volume}%
+  \clearfield{number}%
+  \clearlist{language}%
+}
+
+
+
+\usepackage{ragged2e}
+
+\definecolor{themecolor}{HTML}{006699} % theme color TU presentation
+\definecolor{themecolor_logo}{HTML}{0F6CB1} % theme color TU logo
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=themecolor,
+    urlcolor=themecolor,
+    citecolor=themecolor
+}
+\usecolortheme[named=themecolor_logo]{structure}
+\usepackage{tikz}
+\usetikzlibrary{positioning, shapes.geometric, fit, backgrounds, calc}
+\def\indicatrice{\textrm{1\kern-0.25emI}}
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamertemplate{headline}
+{%
+  \begin{beamercolorbox}[colsep=1.5pt]{upper separation line head}
+  \end{beamercolorbox}
+  \begin{beamercolorbox}{section in head/foot}
+    \vskip2pt\insertnavigation{\paperwidth}\vskip2pt
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[colsep=1.5pt]{lower separation line head}
+  \end{beamercolorbox}
+} %pour retirer la ligne avec le nom de la sous-partie
+
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.8\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+     % \usebeamerfont{author in head/foot}\hspace*{2ex} Otti - \textit{}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.2\paperwidth,ht=2.25ex,dp=1ex,right]{author in head/foot}%
+      \usebeamerfont{author in head/foot}\insertframenumber{} / \inserttotalframenumber\hspace*{2ex}%
+    \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\usepackage[most]{tcolorbox}
+}
+\title{Title}
+
+\author{Author\textsuperscript{1}}
+
+
+\titlegraphic{
+\begin{columns}
+    \begin{column}{0.25\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{manuscript/figures/TU_Logo.pdf}
+        \end{figure}
+    \end{column}
+    \begin{column}{0.25\textwidth}
+        \begin{figure}
+            \centering
+            \includegraphics[width=\textwidth]{manuscript/figures/EEG_logo.png}
+        \end{figure}
+    \end{column}
+\end{columns}
+}
+
+
+
+\institute{\textsuperscript{1}Technische Universität Wien (TU Wien)
+}
+
+
+\date{Town, DD.MM.YYYY}
+
+%------------------------------------------------
+
+\begin{document}
+
+%------------------------------------------------
+
+\begin{frame}[plain]
+	\maketitle % Automatically created using the information in the commands above
+\end{frame}
+
+
+\section{Background}
+\begin{frame}{Motivation}
+
+\end{frame}
+
+
+\section{Method}
+
+\begin{frame}{Method}
+
+\end{frame}
+
+
+\section{Results}
+
+\begin{frame}{Results}
+
+\end{frame}
+
+\section{Conclusion}
+\begin{frame}{Key Takeaways}
+
+
+
+
+
+\end{frame}
+
+\appendix
+
+\section*{References}
+
+\begin{frame}[allowframebreaks]{Relevant Literature}
+    \footnotesize
+    \printbibliography[heading=none]
+    
+\end{frame}
+%------------------------------------------------% 
+
+
+
+
+\end{document}

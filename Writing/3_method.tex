@@ -1,0 +1,64 @@
+% !TEX root = main.tex
+\chapter{Methodology} 
+\label{chap_method}
+
+% How to use all three together in your 3_method.tex:
+% - Take the network structure (variables, constraints, mass balance) from Tsiakis (2001)
+% - Swap/augment the cost+environmental objective formulation using Guillen-Gosalbez (2009) alongside Farajiamiri
+% - Solve the tri-objective MILP with Mavrotas (2009) AUGMECON
+
+\section{Supply chains/ Flowcharts} 
+\label{sec_supply_chains}
+
+\section{Mathematical formulation}
+\label{sec_mathematical_formulation}
+Here the utilized mathematical formulation for the multi-objective supply-chain analysis of the material lithium-6 is documented.
+
+\subsection{Objective functions} 
+\label{subsec_objective_functions}
+\textcite{farajiamiriMultiobjectiveOptimizationRenewable2023} utilizes the Resource-Technology-Network (RTN) approach for modeling. 
+
+    \subsubsection{\textit{Cost minimization objective function} Economical aspects} 
+    \label{subsec_economical_aspects}
+    \textcite{farajiamiriMultiobjectiveOptimizationRenewable2023} have total costs as an objective function. The total costs of a system are there calculated via their Net Present Value (NPV).
+
+    \subsubsection{Ecological aspects} 
+    \label{subsec_ecological_aspects}
+    \textcite{farajiamiriMultiobjectiveOptimizationRenewable2023} gives mathematical formulations for integrating land-use (surface power density) and water-use (water footprint) into a supply-chain-MOO. The can pose as environmental aspects. 
+
+    \subsubsection{Supply risk (EU)} 
+    \label{subsec_supply_risk}
+    \textcite{colucciCombinedAssessmentMaterial2025} provides formula to describe supply risk, whereby it is differentiated between supply risk for materials and energy commodities. The formula regarding supply risk of materials is a good fit to the supply risk aims of this analysis and will therefore be the backbone of this section.
+
+    The supply risk of a single material $m$ is defined as a dimensionless composite index that captures supply concentration and the geopolitical stability of supplier countries via the Herfindahl--Hirschman Index ($HHI_m$), combined with import reliance ($IR_m$)~\cite{colucciCombinedAssessmentMaterial2025}:
+
+    \begin{equation}
+        SR_m \, (-) = f(HHI_m,\, IR_m)
+        \label{eq:SR_m}
+    \end{equation}
+
+    To translate this commodity-level risk to the technology level, each material's $SR_m$ is weighted by its material intensity $f_{m,t}$ (t/GW) and normalized by a reference annual consumption level $cons_m^{ref}$ (t). The supply risk per unit installed capacity of technology $t$ is then~\cite{colucciCombinedAssessmentMaterial2025}:
+
+    \begin{equation}
+        SR_t \left(\frac{1}{\text{cap}}\right) = \sum_{m=1}^{N_{mat}^{tech}} \frac{f_{m,t}}{cons_m^{ref}} \, SR_m
+        \label{eq:SR_t}
+    \end{equation}
+
+    Finally, the total material supply risk $SR_M$ of the system over the planning horizon from $y_{start}$ to $y_{end}$, covering $N_{tech}$ supply chain pathways, is obtained by summing over all pathways and time periods, weighted by the newly installed capacity $V_{\mathrm{Capacity},t,p}$~\cite{colucciCombinedAssessmentMaterial2025}:
+
+    \begin{equation}
+        SR_M \, (-) = \sum_{p=y_{start}}^{y_{end}} \sum_{t=1}^{N_{tech}} SR_t \cdot V_{\mathrm{Capacity},t,p}
+        \label{eq:SR_M}
+    \end{equation}
+
+    $SR_M$ constitutes the supply risk objective function in the multi-objective optimization, quantifying the cumulative material supply risk accrued across all Li-6 supply chain pathways over the planning period.
+
+\subsection{Constraints}
+
+    \subsubsection{Constraint 1}
+
+\section{Solution method}
+
+The $\varepsilon$-constraint method is a generation method for multi-objective mathematical programming that produces the Pareto optimal set by optimizing one objective function while constraining the remaining objectives to parametric lower bounds~\cite{mavrotasEffectiveImplementationConstraint2009}. By systematically varying these bounds across the ranges of each objective, a representative subset of Pareto optimal solutions is obtained. Unlike the weighting method, it does not require objective scaling, can recover non-extreme efficient solutions, and is applicable to mixed-integer problems~\cite{mavrotasEffectiveImplementationConstraint2009}.
+
+AUGMECON is an augmented formulation of the $\varepsilon$-constraint method introduced by \citet{mavrotasEffectiveImplementationConstraint2009} to overcome three known limitations: unreliable range estimation, generation of weakly Pareto optimal (dominated) solutions, and excessive computation time for three or more objectives. Weak efficiency is eliminated by appending the surplus variables of the constrained objectives as a lexicographic secondary term in the objective function, guaranteeing that every returned solution is strictly efficient~\cite{mavrotasEffectiveImplementationConstraint2009}. Computational effort is further reduced through an early-exit mechanism that terminates inner loops upon infeasibility detection; \citet{mavrotasEffectiveImplementationConstraint2009} report this can reduce the number of optimization runs by roughly half for problems with multiple objectives.

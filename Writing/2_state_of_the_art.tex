@@ -1,0 +1,254 @@
+% !TEX root = main.tex
+\chapter{State of the art and progress beyond} 
+\label{chap_state_of_the_art}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technological background} 
+\label{sec_technological_background}
+    \subsection{The reaction} 
+    \label{subsec_the_reaction}
+    Nuclear fusion is the process of merging two small atoms together to one larger atom.
+    This process is the basis for life on earth today, as the fusion reaction fuels the sun. However, adopting the reaction that provides our solar system with energy on earth is challenging. Due to its technological complexity, e.g. extensive temperatures and pressures, fusion on earth is still in the R\&D stage. Although if the fusion reaction is properly deployed, more energy than in a fission reaction will be released. \cite{wimmersNuclearPowerTechnology2026}
+
+    The fusion reaction most commonly studied is the reaction of hydrogen isotopes deuterium (one neutron) and tritium (two neutrons) and produces one helium atom as well as one unbound neutron. \cite{wimmersNuclearPowerTechnology2026}
+    %This is the reaction intended for power producing reactors. \cite{giegerich2019lithium6}
+    This is the reaction intended for power producing fusion reactors, with the respective released Energy Q: \cite{AcostaFlexer2018}
+
+    %\begin{equation}
+    %\label{equ_basicfusion1}
+    % {}^{2}_{1}\mathrm{H} + {}^{3}_{1}\mathrm{H} \rightarrow {}^{4}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n}
+    %\end{equation}
+    %
+    %Another way of writing the reaction equation: \cite{katoch2025fusion}
+    %\begin{equation}
+    %\label{equ_basicfusion2}
+    %{}^{2}_{1}\mathrm{H} + {}^{3}_{1}\mathrm{H} \rightarrow {}^{4}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n} + 17.6\,\mathrm{MeV}
+    %\end{equation}
+    %
+    %Another way of writing the reaction equation:
+    \begin{equation}
+    {}^{2}\mathrm{D} + {}^{3}\mathrm{T} \rightarrow {}^{4}\mathrm{He} + n
+    \qquad (Q = 14.1\,\mathrm{MeV})
+    \label{equ_basicfusion3}
+    \end{equation}
+
+    \subsection{The fuel} 
+    \label{subsec_the_fuel}
+    For fusion energy to play a significant role in the energy landscape, there are some persistent
+    obstacles still remaining. These obstacles may be of a technical nature, as \textcite{katoch2025fusion} points out, referring to the maintenance of plasma stability and the overall goal of a net
+    positive energy production. There are, however, obstacles of a non-technical nature, which
+    may jeopardise the success of the technology even more: The question of material-availability.
+
+    One of the main challenges nuclear fusion faces regards its fuel. \cite{wimmersNuclearPowerTechnology2026}
+
+    As equation \ref{equ_basicfusion3} states, for the classic fusion reaction both deuterium and tritium are needed.
+
+    While Deuterium is abundantly available on the market, acquiring sufficient amounts of Tritium poses more of a challenge. \cite{katoch2025fusion} \cite{giegerich2019lithium6}
+
+    The question of tritium-availability has not been answered sufficiently. \cite{wimmersNuclearPowerTechnology2026} So a key aspect of making nuclear fusion market-ready, namely the availability of the necessary fuel resources, is still open. \textcite{katoch2025fusion} even names the fuel-household one of the three main technological barriers nuclear fusion must overcome.
+
+    This struggle for fuel security is further intensified by CANDU-type fission reactors going into decommissioning in coming decades, which provides the current research reactor with its tritium fuel. \cite{Pearson2018TritiumSupply}\\ %ITER
+
+    \textbf{State of the art}\\
+    For the present, the International Thermonuclear Experimental Reactor (ITER) is reliant on external tritium supplies, principally from CANDU reactors. Nevertheless, it is anticipated that ITER will consume the majority of the remaining global tritium reserves during its operational lifetime. Consequently, tritium breeding blankets are regarded as the key technology for facilitating future fuel self-sufficiency, and their performance is being evaluated in ITER.
+    Further research projects, like SPARC, require only a comparatively small amount of tritium, thus reducing short-term supply constraints. However, any long-term commercial fusion systems will also depend on tritium breeding blankets to ensure sustainable fuel production. \cite{wimmersNuclearPowerTechnology2026}
+    The overall goal for Tritium is not to be a primal fuel but to be bred within the reactors breeding blankets. \cite{giegerich2019lithium6}
+    \newline
+
+    \textbf{The amount}\\
+    For a 1GW fusion reactor around 56kg of tritium are annually needed. Even though Tritium can be bred in the reactor itself, a certain start-up amount is needed.
+    %\textcolor{red}{How much and why}
+    As of 2026 the globally available amount of tritium is smaller than 27kg. The issue is further intensified by the fact of tritiums short half-life of just 12.32 years. So no bulk production and bulk storage is sensible. \cite{wimmersNuclearPowerTechnology2026} Subsequently tritium production at the fusion site is the way to go. \cite{AcostaFlexer2018}
+
+    %\begin{table}[h!]
+    %    \centering
+    %    \caption{Needed amounts per full power year $GW_{fus}$ \textbf{regular consumption}.}
+    %    \begin{tabular}{lllll}
+    %    Blanket Design & Power & Amount needed & Material needed    & Source \\
+    %    \midrule
+    %    WCLL \textcolor{red}{???}          & full power year $GW_{fus}$ & 112kg       & $^6$Li        & \cite{giegerich2019lithium6}  \\
+    %    \end{tabular}
+    %    \label{tab:amount_Li_relative}
+    %\end{table}
+
+    A 1GW fusion reactor at full power needs about 152 grams of tritium per day. The breeding blanket must produce this amount daily. Extra reserves are needed to replace radioactive decay and maintain safety. \cite{IAEA2018FusionDemo}
+    % TODO: see IAEA p. 288 for more
+
+    \begin{table}[h!]
+        \centering
+        \caption{Needed amounts per $GW_{fus}$ \textbf{total inventory}.}
+        \begin{tabular}{lllll}
+        Blanket Design & Power & Amount needed & Material needed    & Source \\
+        \midrule
+        %WCLL           & 2$GW_{fus}$ & 52 tons       & pure ${}^6$Li        & \cite{giegerich2019lithium6}  \\
+        WCLL           & 1$GW_{fus}$ & 26 tons       & 90\% enriched PbLi &  \cite{giegerich2019lithium6} \\
+                       & &               &                    &
+        \end{tabular}
+        \label{tab:amount_Li_inventory}
+    \end{table}
+
+    Regardless of the blanket concept ultimately chosen, the final quantity of enriched lithium required will be of the same order of magnitude as stated in table \ref{tab:amount_Li_inventory}. So several dozen tonnes of fusion-grade lithium must be provided. Which enrichment level is needed to be deemed fusion grade depends on the breeder design chosen. \cite{giegerich2019lithium6} %For solid breeders this refers to 30-60\% and for liquid breeders to as much as 90\%.
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Tritium procurement} 
+\label{sec_tritium_procurement}
+Tritium for fusion can come from lithium-6 breeding, secondary reactions involving lithium-7, or as a by-product from heavy-water reactors such as CANDU systems.
+Regarding tritium yielding processes it is crucial to distinguish between processes designated for tritium output and processes where Tritium is just a by-product.
+A central issue with tritium as a industrial product is it being a radioactive isotope and thereby its half-life. The decay-process results in beta-radiation and ${}^3He$, whereby the original product is lost.  \cite{AcostaFlexer2018}
+
+As afore mentioned, ITER operates with external tritium from CANDU reactors. This amounts to about 140-200 g per year per gigawatt of electrical power. Future reactors like DEMO produce 2.7 GW of fusion power and run continuously, requiring over 100 kg tritium per year. At this scale, tritium must be produced inside the reactor using breeding blankets instead of external supply. \cite{IAEA2018FusionDemo}
+
+    \subsection{Tritium out of Breeding blankets} 
+    \label{subsec_tritium_breeding_blankets}
+    State of the art research reactors all aim to breed their own tritium. Breeding blankets are positioned on the outer walls to produce tritium. \cite{giegerich2019lithium6}
+    To reduce neutron loss more than 80\% of the plasma chamber walls are covered with breeding blankets. \cite{IAEA2018FusionDemo}
+    In order to produce tritium, these breeding blankets are composed of lithium-containing materials. Furthermore, a neutron is needed, which is provided by the fusion reaction.
+    The subsequent fuel-producing reactions are: \cite{giegerich2019lithium6}
+
+    \begin{equation}
+    \label{equ_breedingblanket_1/2}
+    {}^{6}_{3}\mathrm{Li} + {}^{1}_{0}\mathrm{n} \rightarrow {}^{3}_{1}\mathrm{T} + {}^{4}_{2}\mathrm{He} + 4.8\,\mathrm{MeV}
+    \end{equation}
+    \begin{equation}
+    \label{equ_breedingblanket_2/2}
+    {}^{7}_{3}\mathrm{Li} + {}^{1}_{0}\mathrm{n} \rightarrow {}^{3}_{1}\mathrm{T} + {}^{4}_{2}\mathrm{He} + {}^{1}_{0}\mathrm{n}' - 2.5\,\mathrm{MeV}
+    \end{equation}
+
+
+    Lithium-7 can produce one extra neutron per tritium, but this reaction requires high energy and happens rarely. It only works with materials that do not absorb neutrons, like vanadium. A better approach is using neutron multipliers and more lithium-6, which reacts well at the neutron energies in fusion blankets. \cite{IAEA2018FusionDemo}\\
+
+
+    \textbf{Tritium breeding ratio (TBR)}\\
+    Every blanket must be modeled to check the neutron balance. Since each fusion reaction makes only one neutron, and some are lost, neutron multiplication is needed to get more than one tritium per reaction. The tritium breeding ratio (TBR) measures tritium produced versus tritium used. This is the main way to judge how well a blanket works. \cite{IAEA2018FusionDemo} %, p. 298
+    The tritium production rate further affects the amount of lithium consumed to produce the fuel tritium, as it indicates the processes efficiency. \cite{giegerich2019lithium6}\\ %1g of tritium is obtained from 2g ${}^6$Li. ??? at what TBR
+
+    \textbf{Breeding from 6-Li}\\
+    Tritium is gained from the isotope lithium-6 by neutron-bombardment. This is the most common way of producing tritium directly at the site (in the breeding blanket). Furthermore it is the easiest procurement-path. \cite{AcostaFlexer2018}\\
+
+    %\begin{equation}
+    %{}^{6}\mathrm{Li} + n \rightarrow {}^{4}\mathrm{He} + {}^{3}\mathrm{T}
+    %\qquad (Q = 4.78\,\mathrm{MeV})
+    %\label{equ_Li6breeding}
+    %\end{equation}
+
+    \textbf{Breeding from 7-Li}\\
+    Utilizing natural lithium, which mainly consists of lithium-7, as breeder material will not allow for the reactor to be self sufficient. This is due to the tritium-breeding rate not reaching the necessary threshold when utilizing natural lithium. \cite{giegerich2019lithium6}
+
+    \subsection{Tritium out of CANDU reactors} 
+    \label{subsec_tritium_candu}
+    CANDU reactors are the only reliable production plants for tritium outside a breeding blanket. \cite{wimmersNuclearPowerTechnology2026}
+
+    \textcite{Pearson2018TritiumSupply} state that the existing CANDU reactor fleet operating in Canada, South Korea, and Romania represent the sole source of CANDU-derived tritium, with no new reactors planned. Under this scenario, the global tritium inventory accumulated in CANDU systems is insufficient to support the simultaneous commissioning of multiple DEMO reactors. \cite{Pearson2018TritiumSupply}
+
+    CANDU 6 reactors utilize natural uranium fuel and employ heavy water as both moderator and coolant. Within these systems, the moderator and coolant circuits are the primary sources of tritium production. The tritium generated exists in molecular form, predominantly as deuterium tritium oxide (DTO) and tritium oxide (T$_2$O). %\cite{Kim1996TritiumpathwaysCANDU}
+    The tritium generating reactions in the reactor are D(n, $\gamma$)T, $^{10}$B(n, 2$\alpha$)T, $^7$Li(n, $\alpha$)T, $^3$He(n, p)T, and $^{235}$U(n, f)T. Among these reactions, the D(n, $\gamma$)T reaction is the dominant tritium source in CANDU 6 reactors. \cite{Kim1996TritiumpathwaysCANDU}\\
+
+    Since CANDU reactor tritium supplies are finite and insufficient for post-ITER fusion development, alternative tritium production methods are essential for supporting DEMO and future commercial fusion reactors. For fusion energy to realize its potential as a clean and sustainable energy source, the tritium fuel procurement pathway must itself be environmentally sound and operationally secure.
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Lithium procurement} 
+\label{sec_lithium_procurement}
+Today's most prominent approach to overcome tritium scarcity is by utilizing enriched Li-6 as the base material to breed tritium from. \cite{wimmersNuclearPowerTechnology2026}\\
+Natural lithium consists predominantly of lithium-7 (92.4\%) and lithium-6 (7.6\%). However, literature values vary, with some sources reporting lithium-7 abundance as high as 95.15\%. \cite{giegerich2019lithium6} \cite{BadeaLiIsotopes2023}
+
+
+
+According to \textcite{WARD2025101997}, global lithium resources are sufficient and are not expected to limit future fusion deployment. The primary challenge instead concerns the supply of enriched lithium-6, as current global production capacity is insufficient to meet projected demand. Consequently, the development of new lithium-6 enrichment technologies and industrial-scale production facilities represents a major challenge. Earlier enrichment methods, particularly the COLEX process, were costly, inefficient, and environmentally hazardous.
+Furthermore historical production capacities would still be inadequate for large-scale commercial fusion deployment. \cite{WARD2025101997}
+
+Today, when talking about lithium-enrichment on an industrial scale, it always refers to the COLEX process. This process however, is ecologically harmful due to the production of mercury. Therefore alternative environmental-friendly processes are needed. \cite{BadeaLiIsotopes2023}
+
+    \subsection{COLEX-process} 
+    \label{subsec_colex_process}
+    Historically for lithium-enrichment the Oak Ridge plant in the United states is of great significance. This facility tried and tested various enrichment approaches, wherefrom the column chemical exchange (COLEX) emerged and pushed to industrial scale. \cite{AcostaFlexer2018}
+
+     The COLEX-process has so far been the only industrial-scale proven enrichment process applied and running, with its heyday in the 1950s and 1960s. This process has prevailed due to minimal production costs. Today the process is seen with more scrutiny, due to its high energy consumption, challenging amalgam breakdown and the risk of mercury loss from the process to the environment. As of today this process is deemed obsolete. \cite{giegerich2019lithium6} \cite{BadeaLiIsotopes2023}
+
+    As the name indicates, COLEX utilizes a multi-stage exchange column approach. Within this cascade two liquids flow counter-currently. One fluid holds LiOH (aqueous solution), while the other is an amalgam (amalgams are by definition mercury-metal alloys). The different lithium isotopes have different affinities for the two liquids - ${}^6Li$ goes for the amalgam, whereas ${}^7Li$ is drawn to the aqueous solution. As the isotopic preference is very small, the process has to be repeated multiple times. \cite{AcostaFlexer2018}
+
+    Oak Ridge is especially of importance when looking at the COLEX procedure, as after the plant stopped the lithium-enrichment procedures, a report regarding the respective environmental impacts was published. \cite{AcostaFlexer2018}\\
+
+    \textbf{Environmental impact}\\
+    The most worrisome deployed chemical in the COLEX process is the amalgam, due to it being an mercury compound. About 11 000 tonns of mercury were deployed at Oak Ridge during its operation between 1954 and 1963. This intense deployment of mercury let to the plants closure. \cite{AcostaFlexer2018}
+
+
+    \subsection{Current alternative processes} 
+    \label{subsec_alternative_processes}
+    Isotopic separation is the essential underlying process in lithium enrichment. So looking at different enrichment-paths means looking at different separation methods. \cite{BadeaLiIsotopes2023}
+    Numerous techniques for lithium isotope separation have been investigated over the years. \cite{AcostaFlexer2018} These modern enrichment techniques can generally be classified into three categories: \cite{BadeaLiIsotopes2023}
+    \begin{itemize}
+        \item Chemical exchange (liquid phases)
+        \item Displacement chromatography
+        \item Electrochemical exchange
+    \end{itemize}
+    These are distinct, separate categories based on their unique working principles. While they all aim to separate lithium isotopes, they represent three different primary groups of chemical separation methods, each with its own set of advantages and challenges regarding costs, environmental impact, and separation efficiency. \cite{BadeaLiIsotopes2023}
+    Depending on the specific process used, the achieved enrichment can vary considerably. The increase in isotope concentration per stage is generally limited to only a few percent. As discussed previously, the desired isotope purity is approximately between 30\% and 90\% for ${}^{6}\mathrm{Li}$. Consequently, independent of the chosen separation method, multiple successive enrichment stages are required to obtain the target isotope concentrations. \cite{AcostaFlexer2018}
+
+    \subsubsection{Chemical exchange (liquid phases)} 
+    \label{subsubsec_chemical_exchange}
+    This method relies on the movement of lithium compounds between two immiscible liquid stages when their solvation environments change slightly. It primarily utilizes macrocyclic compounds known as crown ethers as extractants, which can sometimes be combined with ionic liquids. The separation occurs because the unique cavity structures of crown ethers can differentiate between $^{6}\text{Li}$ and $^{7}\text{Li}$ isotopes based on their size. While this method offers high separation factors comparable to older industrial processes, it is hindered by the high cost and relative toxicity of the reagents, as well as a low distribution coefficient of lithium. \cite{BadeaLiIsotopes2023}
+
+
+    \subsubsection{Displacement chromatography} 
+    \label{subsubsec_displacement_chromatography}
+    This category involves using ion-exchange columns filled with materials like inorganic microstructures (e.g., manganese dioxide or zeolites) or specialized cation-exchange resins. The process works through differential elution, where isotopes are separated as they pass through the column's stationary phase. A significant advantage of displacement chromatography is that the columns are reusable, making the method more environmentally friendly. Nevertheless, the separation factors achieved with these methods are generally lower than those found in chemical exchange processes. \cite{BadeaLiIsotopes2023}
+
+
+    \subsubsection{Electrochemical exchange} 
+    \label{subsubsec_electrochemical_exchange}
+    Electrochemical methods, such as electromigration and electrodialysis, separate isotopes by exploiting the different migration rates of $^{6}\text{Li}$ and $^{7}\text{Li}$ ions. For instance, in electrodialysis, $^{6}\text{Li}$ ions move faster than $^{7}\text{Li}$ ions, allowing $^{6}\text{Li}$ to be enriched on the cathode side of a cell. These methods can be performed in various media, including aqueous solutions or organic solvents, and are considered a "green" and promising alternative to older technologies. However, they currently result in relatively low separation factors and require highly complex experimental setups. \cite{BadeaLiIsotopes2023}
+
+    \subsection{Current investment environment} 
+    \label{subsec_investment_environment}
+    As of 2018 the only two countries officially producing both lithium isotopes via the COLEX process are China and Russia. \cite{AcostaFlexer2018}
+
+    Currently, there are advanced talks regarding the construction of a new enrichment facility at Oak Ridge, whereby the corresponding reports mainly refer to lithium enrichment for nuclear weapons purposes. \cite{US_LithiumProcessing_2021}
+    Regarding Europe, a research grant from BMBF has been secured by Kyoto Fusioneering EU in 2024 with the aim of evolving lithium enrichment technologies significantly. \cite{KyotoFusioneering2024}
+
+    The COLEX process remains economically proven but environmentally hazardous, while emerging alternatives offer environmental benefits but face efficiency and cost challenges. Current investments, like the research grants for Kyoto Fusioneering and discussions about new enrichment facilities, represent steps toward cleaner technologies. However, without coordinated policy support, commercial fusion may default to COLEX-based supplies, perpetuating the environmental vulnerabilities that have characterized lithiumenrichment since the Cold War era.
+
+\section{Supply chains} 
+\label{sec_supply_chains_sota}
+A supply chain can be understood as an interconnected network of stakeholders collaborating to meet customer demand \cite{farajiamiriMultiobjectiveOptimizationRenewable2023}. Mathematical models are well-suited tools for capturing the complex and dynamic nature of supply chain systems, and may vary considerably in terms of network topology, planning horizon, inventory management, capacity constraints, production decisions, and the number of commodities considered \cite{farajiamiriMultiobjectiveOptimizationRenewable2023}.
+
+\textcolor{red}{
+\begin{itemize}
+    \item Russia (TVEL/NCCP in Novosibirsk) is the only large-scale producer of enriched lithium isotopes. China appears to buy from Russia rather than produce independently.
+    \item Crucially: this supply is not commercially available to Western buyers. It serves domestic weapons/military programs.
+    \item The US shut down its enrichment capacity (Oak Ridge COLEX process) in the 1960s due to mercury contamination. No Western replacement exists.
+    \item There is effectively no accessible Li-6 supply chain for Europe at all — it's not that it's concentrated, it's that it's absent.
+\end{itemize}
+}
+
+\section{Multi-Objective-Optimization Modelling (MOO)} 
+\label{sec_moo_sota}
+Current literature often overlooks supply-chain risks. Dealing with multiple interests is a strength of MOO, therefore it fits really well to energy system modelling. Existing literature mostly applies supply-risk ex-post to prior defined scenarios. This widespread approach has the intrinsic limitations of energy scenarios not being able to adapt and mitigate supply risks. For supply risk-considerations to have an impact on energy pathways, they need to be considered before or during the optimization. \cite{colucciCombinedAssessmentMaterial2025}.
+
+    \subsection{Different Methods of MOO} 
+    \label{subsec_moo_methods}
+    The most common methods are the epsilon-constraint and weighted-sum approaches. However, these do not necessarily ensure Pareto-optimal solutions; Pareto optimality means that improving one objective inevitably leads to a deterioration in at least one other objective. \cite{colucciCombinedAssessmentMaterial2025}
+
+    \subsection{Objectives} 
+    \label{subsec_objectives}
+    Many models only house one sigular objective function, aiming for economical idealism. \cite{farajiamiriMultiobjectiveOptimizationRenewable2023}
+    Often with MOO optimization utilizing a Pareto-front analysis, only two objective functions are competing. More specifically, within the energy sector, these two objectives most commonly are minimizing costs and minimizing $CO_{2}$ emissions. This approach, however, does not work well when considering supply chains, as supply risk itself should be one of the objectives as well. \cite{colucciCombinedAssessmentMaterial2025}
+    \textcite{farajiamiriMultiobjectiveOptimizationRenewable2023} investigate fuel supply chains with three objectives, minimal total costs, minimal land use and minimal water usage.
+
+    \subsection{Economical} 
+    \label{subsec_economical_sota}
+
+    \subsection{Ecological} 
+    \label{subsec_ecological_sota}
+
+    \subsection{Supply risks (EU)} 
+    \label{subsec_supply_risks_sota}
+    \textbf{Material $\text{SR}_{m}$}\\
+    $\text{SR}_{m}$ Lithium EU = 1.9 \cite{colucciCombinedAssessmentMaterial2025}\\
+    \textbf{Energy commodity $\text{SR}_{e}$}\\
+    $\text{SR}_{e}$ Nuclear EU = 1.11 (from investigated commodities only natural gas is higher) with top supplier countries Kazakhstan, Niger, Canada. \cite{colucciCombinedAssessmentMaterial2025}\\
+
+    The absence of harmonized datasets on material requirements for technologies and consistent geographical coverage of energy imports introduces additional uncertainty into both material and energy supply risk calculations across the planning time horizon. \cite{colucciCombinedAssessmentMaterial2025}
+
+    \subsection{Solution methods}
+    \label{subsec_solution_methods}
+    \textcolor{red}{read \cite{farajiamiriMultiobjectiveOptimizationRenewable2023} \cite{colucciCombinedAssessmentMaterial2025} AUGMECON}

@@ -1,0 +1,677 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{IAEA_FFDB_2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a120b3091ba982e2e21b4d053f5ff51e}{%
+           family={{International Atomic Energy Agency}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a120b3091ba982e2e21b4d053f5ff51e}
+      \strng{fullhash}{a120b3091ba982e2e21b4d053f5ff51e}
+      \strng{fullhashraw}{a120b3091ba982e2e21b4d053f5ff51e}
+      \strng{bibnamehash}{a120b3091ba982e2e21b4d053f5ff51e}
+      \strng{authorbibnamehash}{a120b3091ba982e2e21b4d053f5ff51e}
+      \strng{authornamehash}{a120b3091ba982e2e21b4d053f5ff51e}
+      \strng{authorfullhash}{a120b3091ba982e2e21b4d053f5ff51e}
+      \strng{authorfullhashraw}{a120b3091ba982e2e21b4d053f5ff51e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Fusion Facility Database}}
+      \field{urlday}{7}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nucleus.iaea.org/sites/fusion-portal/SitePages/FFDB.aspx?web=1
+      \endverb
+      \verb{url}
+      \verb https://nucleus.iaea.org/sites/fusion-portal/SitePages/FFDB.aspx?web=1
+      \endverb
+    \endentry
+    \entry{wimmersNuclearPowerTechnology2026}{book}{}{}
+      \name{editor}{4}{}{%
+        {{hash=99331cd04f68ad04e6caae1fa144f82d}{%
+           family={Wimmers},
+           familyi={W\bibinitperiod},
+           given={Alexander\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9d4bc18eb01ca08b0ace3aeb2cbd2474}{%
+           family={Böse},
+           familyi={B\bibinitperiod},
+           given={Fanny},
+           giveni={F\bibinitperiod}}}%
+        {{hash=439c53fe4f7114b643800bcd9f7feb00}{%
+           family={Kemfert},
+           familyi={K\bibinitperiod},
+           given={Claudia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=78dee2efd99ee46255f86c68755663aa}{%
+           family={Hirschhausen},
+           familyi={H\bibinitperiod},
+           given={Christian\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{52cb9d8bba5bbfafad53cd562cd7138f}
+      \strng{fullhash}{2d57daa382cfa54a79451e9bfc44a185}
+      \strng{fullhashraw}{2d57daa382cfa54a79451e9bfc44a185}
+      \strng{bibnamehash}{2d57daa382cfa54a79451e9bfc44a185}
+      \strng{editorbibnamehash}{2d57daa382cfa54a79451e9bfc44a185}
+      \strng{editornamehash}{52cb9d8bba5bbfafad53cd562cd7138f}
+      \strng{editorfullhash}{2d57daa382cfa54a79451e9bfc44a185}
+      \strng{editorfullhashraw}{2d57daa382cfa54a79451e9bfc44a185}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-031-99894-2}
+      \field{langid}{english}
+      \field{series}{Studies {{ineEnergy}}, Resource and Environmental Economics}
+      \field{shorttitle}{Nuclear Power}
+      \field{title}{Nuclear Power: Technology, Geopolitics, and Economics}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.1007/978-3-031-99894-2
+      \endverb
+      \verb{file}
+      \verb C:\Users\mona\Zotero\storage\UA323HP6\Wimmers et al. - 2026 - Nuclear power technology, geopolitics, and economics.pdf
+      \endverb
+    \endentry
+    \entry{colucciCombinedAssessmentMaterial2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4effc33ce331bc4ffe01c9616bfad512}{%
+           family={Colucci},
+           familyi={C\bibinitperiod},
+           given={Gianvito},
+           giveni={G\bibinitperiod}}}%
+        {{hash=cc6285bbcc9d485f1fca93c23bbf3dcf}{%
+           family={Finke},
+           familyi={F\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=84bdca6fe5226837552089c1f539eab8}{%
+           family={Bertsch},
+           familyi={B\bibinitperiod},
+           given={Valentin},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d7c94e4de916d7c3776b29d2b558d88e}{%
+           family={{Di Cosmo}},
+           familyi={D\bibinitperiod},
+           given={Valeria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=599f8414cb9a1efeb83135a0582eb5f1}{%
+           family={Savoldi},
+           familyi={S\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{070d06a9d5709109567a1290f4ed8409}
+      \strng{fullhash}{b724ab0d0c7bacdfc48d968ed3635e47}
+      \strng{fullhashraw}{b724ab0d0c7bacdfc48d968ed3635e47}
+      \strng{bibnamehash}{b724ab0d0c7bacdfc48d968ed3635e47}
+      \strng{authorbibnamehash}{b724ab0d0c7bacdfc48d968ed3635e47}
+      \strng{authornamehash}{070d06a9d5709109567a1290f4ed8409}
+      \strng{authorfullhash}{b724ab0d0c7bacdfc48d968ed3635e47}
+      \strng{authorfullhashraw}{b724ab0d0c7bacdfc48d968ed3635e47}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Energy}
+      \field{title}{Combined assessment of material and energy supply risks in the energy transition: {A} multi-objective energy system optimization approach}
+      \field{volume}{388}
+      \field{year}{2025}
+      \field{pages}{125647}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apenergy.2025.125647
+      \endverb
+    \endentry
+    \entry{AcostaFlexer2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=57195faf9a1051045b97644fcad3d9d1}{%
+           family={Acosta},
+           familyi={A\bibinitperiod},
+           given={Lautaro\bibnamedelima N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=5ff074faebe50cfdefa9ec0550e7e832}{%
+           family={Flexer},
+           familyi={F\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{1453655db9681d913ab9dd6a4b30d06f}
+      \strng{fullhash}{1453655db9681d913ab9dd6a4b30d06f}
+      \strng{fullhashraw}{1453655db9681d913ab9dd6a4b30d06f}
+      \strng{bibnamehash}{1453655db9681d913ab9dd6a4b30d06f}
+      \strng{authorbibnamehash}{1453655db9681d913ab9dd6a4b30d06f}
+      \strng{authornamehash}{1453655db9681d913ab9dd6a4b30d06f}
+      \strng{authorfullhash}{1453655db9681d913ab9dd6a4b30d06f}
+      \strng{authorfullhashraw}{1453655db9681d913ab9dd6a4b30d06f}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial \& Engineering Chemistry Research}
+      \field{number}{33}
+      \field{title}{A First Assessment on the Scale-Up Possibilities of Different Electrochemical Techniques for Lithium Isotopic Enrichment}
+      \field{volume}{57}
+      \field{year}{2018}
+      \field{pages}{11399\bibrangedash 11413}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1021/acs.iecr.8b01640
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/acs.iecr.8b01640
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/acs.iecr.8b01640
+      \endverb
+    \endentry
+    \entry{katoch2025fusion}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=f897ec10287dd73dee71b714cb736352}{%
+           family={Katoch},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=efa1ed672fd0d68158667b2a25442100}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8bd182ec4e7f98f4aafc6255270d10ff}{%
+           family={Alaghbari},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3d7fd95c201ce287bd25a9fb7bded05f}{%
+           family={Ved},
+           familyi={V\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ee8beb272e163172ee4aa00431256e3f}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=599b883c4106f058a00096aa63a34f97}{%
+           family={Rajiv},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9843b981a347092faf6faad9f1b9bcdd}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b03cc9c546cc7c82201cb121b33a6a7}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7517aa336563bfaaca2d66b5ab1c5665}{%
+           family={Khairandish},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{67ac7641cb4961c426f82122d0adc133}
+      \strng{fullhash}{d01c37d9800d7a53016bfb826aec7190}
+      \strng{fullhashraw}{d01c37d9800d7a53016bfb826aec7190}
+      \strng{bibnamehash}{67ac7641cb4961c426f82122d0adc133}
+      \strng{authorbibnamehash}{67ac7641cb4961c426f82122d0adc133}
+      \strng{authornamehash}{67ac7641cb4961c426f82122d0adc133}
+      \strng{authorfullhash}{d01c37d9800d7a53016bfb826aec7190}
+      \strng{authorfullhashraw}{d01c37d9800d7a53016bfb826aec7190}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discover Sustainability}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Fusion energy: A sustainable pathway to meeting future global energy demands}
+      \field{volume}{6}
+      \field{year}{2025}
+      \field{pages}{221}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s43621-025-00906-6
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s43621-025-00906-6
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s43621-025-00906-6
+      \endverb
+    \endentry
+    \entry{giegerich2019lithium6}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=abd5b1509c0b053bc1c456b88356e57f}{%
+           family={Giegerich},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e59a355c37b0ab77e34c5d1a2adb2f39}{%
+           family={Battes},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f9b251856a1ffd7214eb9717cb0b9d79}{%
+           family={Schwenzer},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d9dd7f2db7ab3412083c1aaeea696156}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e54ad962cdb1d87b7f77cf603ff77cd}
+      \strng{fullhash}{14884f399a233b5b4ec683e1fb8475da}
+      \strng{fullhashraw}{14884f399a233b5b4ec683e1fb8475da}
+      \strng{bibnamehash}{14884f399a233b5b4ec683e1fb8475da}
+      \strng{authorbibnamehash}{14884f399a233b5b4ec683e1fb8475da}
+      \strng{authornamehash}{6e54ad962cdb1d87b7f77cf603ff77cd}
+      \strng{authorfullhash}{14884f399a233b5b4ec683e1fb8475da}
+      \strng{authorfullhashraw}{14884f399a233b5b4ec683e1fb8475da}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fusion Engineering and Design}
+      \field{month}{12}
+      \field{title}{Development of a viable route for lithium-6 supply of DEMO and future fusion power plants}
+      \field{volume}{149}
+      \field{year}{2019}
+      \field{pages}{111339}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.fusengdes.2019.111339
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S092037961930835X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S092037961930835X
+      \endverb
+    \endentry
+    \entry{Pearson2018TritiumSupply}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0f6a681ed456be34e702ccc167098e2b}{%
+           family={Pearson},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8598682a23aa8130449b8cf5a5413918}{%
+           family={Antoniazzi},
+           familyi={A\bibinitperiod},
+           given={Armando\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e071c10cfb24d3bf3fe2f600483d6791}{%
+           family={Nuttall},
+           familyi={N\bibinitperiod},
+           given={William\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4f8b942ec2d1963c78accdd9da5ac8d}
+      \strng{fullhash}{600d94b5e3cd3d69dc0781ff2ad251d5}
+      \strng{fullhashraw}{600d94b5e3cd3d69dc0781ff2ad251d5}
+      \strng{bibnamehash}{600d94b5e3cd3d69dc0781ff2ad251d5}
+      \strng{authorbibnamehash}{600d94b5e3cd3d69dc0781ff2ad251d5}
+      \strng{authornamehash}{c4f8b942ec2d1963c78accdd9da5ac8d}
+      \strng{authorfullhash}{600d94b5e3cd3d69dc0781ff2ad251d5}
+      \strng{authorfullhashraw}{600d94b5e3cd3d69dc0781ff2ad251d5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fusion Engineering and Design}
+      \field{title}{Tritium supply and use: a key issue for the development of nuclear fusion energy}
+      \field{volume}{136}
+      \field{year}{2018}
+      \field{pages}{1140\bibrangedash 1148}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.fusengdes.2018.04.090
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.fusengdes.2018.04.090
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.fusengdes.2018.04.090
+      \endverb
+    \endentry
+    \entry{IAEA2018FusionDemo}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=43bef79daf6be7eeabe93c7a1f418288}{%
+           family={{IAEA}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{publisher}{1}{%
+        {IAEA}%
+      }
+      \strng{namehash}{43bef79daf6be7eeabe93c7a1f418288}
+      \strng{fullhash}{43bef79daf6be7eeabe93c7a1f418288}
+      \strng{fullhashraw}{43bef79daf6be7eeabe93c7a1f418288}
+      \strng{bibnamehash}{43bef79daf6be7eeabe93c7a1f418288}
+      \strng{authorbibnamehash}{43bef79daf6be7eeabe93c7a1f418288}
+      \strng{authornamehash}{43bef79daf6be7eeabe93c7a1f418288}
+      \strng{authorfullhash}{43bef79daf6be7eeabe93c7a1f418288}
+      \strng{authorfullhashraw}{43bef79daf6be7eeabe93c7a1f418288}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-92-0-110421-2}
+      \field{title}{Technical Meeting on the First Generation of Fusion Power Plants: Design and Technology Challenges (DEMO)}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.iaea.org/publications/11042/technical-meeting-on-the-first-generation-of-fusion-power-plants-design-and-technology-challenges-demo
+      \endverb
+      \verb{url}
+      \verb https://www.iaea.org/publications/11042/technical-meeting-on-the-first-generation-of-fusion-power-plants-design-and-technology-challenges-demo
+      \endverb
+    \endentry
+    \entry{Kim1996TritiumpathwaysCANDU}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ed83fd18177d36f5e825716536bbcd9a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={T.-K.},
+           giveni={T\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed83fd18177d36f5e825716536bbcd9a}
+      \strng{fullhash}{ed83fd18177d36f5e825716536bbcd9a}
+      \strng{fullhashraw}{ed83fd18177d36f5e825716536bbcd9a}
+      \strng{bibnamehash}{ed83fd18177d36f5e825716536bbcd9a}
+      \strng{authorbibnamehash}{ed83fd18177d36f5e825716536bbcd9a}
+      \strng{authornamehash}{ed83fd18177d36f5e825716536bbcd9a}
+      \strng{authorfullhash}{ed83fd18177d36f5e825716536bbcd9a}
+      \strng{authorfullhashraw}{ed83fd18177d36f5e825716536bbcd9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Engineering and Design}
+      \field{title}{Tritium: its generation and pathways to the environment at {CANDU} 6 generating stations}
+      \field{volume}{163}
+      \field{year}{1996}
+      \field{pages}{405\bibrangedash 411}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/0029-5493(96)01157-0
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/0029-5493(96)01157-0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/0029-5493(96)01157-0
+      \endverb
+    \endentry
+    \entry{BadeaLiIsotopes2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f86ff65c8b92ef379d9738561915762c}{%
+           family={Badea},
+           familyi={B\bibinitperiod},
+           given={Silviu-Laurentiu},
+           giveni={S\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=97a2fb1700ed5071ca430e9c1c65368c}{%
+           family={Niculescu},
+           familyi={N\bibinitperiod},
+           given={Violeta},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b57a3fa9f9f5db930d6ddf0113796609}{%
+           family={Iordache},
+           familyi={I\bibinitperiod},
+           given={Andreea-Maria},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab0a43cfcd37000974b2e819854bf370}
+      \strng{fullhash}{f92ff4587b7fa03e8da5858ba7517d28}
+      \strng{fullhashraw}{f92ff4587b7fa03e8da5858ba7517d28}
+      \strng{bibnamehash}{f92ff4587b7fa03e8da5858ba7517d28}
+      \strng{authorbibnamehash}{f92ff4587b7fa03e8da5858ba7517d28}
+      \strng{authornamehash}{ab0a43cfcd37000974b2e819854bf370}
+      \strng{authorfullhash}{f92ff4587b7fa03e8da5858ba7517d28}
+      \strng{authorfullhashraw}{f92ff4587b7fa03e8da5858ba7517d28}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials}
+      \field{month}{05}
+      \field{title}{New Trends in Separation Techniques of Lithium Isotopes: A Review of Chemical Separation Methods}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{pages}{3817}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ma16103817
+      \endverb
+    \endentry
+    \entry{WARD2025101997}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=1d67098aea052d0d34257d6b764d377b}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Samuel\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0f6a681ed456be34e702ccc167098e2b}{%
+           family={Pearson},
+           familyi={P\bibinitperiod},
+           given={Richard\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8fe9652d022f6dcdfacfd8bc544444c7}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=52d1e76360666e494a4265b282fd4976}{%
+           family={{Lopes Cardozo}},
+           familyi={L\bibinitperiod},
+           given={Niek\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2acfc480bda121af767132e71b2e5ef}
+      \strng{fullhash}{dd7821819768844588bae63700c9f3cb}
+      \strng{fullhashraw}{dd7821819768844588bae63700c9f3cb}
+      \strng{bibnamehash}{dd7821819768844588bae63700c9f3cb}
+      \strng{authorbibnamehash}{dd7821819768844588bae63700c9f3cb}
+      \strng{authornamehash}{f2acfc480bda121af767132e71b2e5ef}
+      \strng{authorfullhash}{dd7821819768844588bae63700c9f3cb}
+      \strng{authorfullhashraw}{dd7821819768844588bae63700c9f3cb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2542-4351}
+      \field{journaltitle}{Joule}
+      \field{number}{7}
+      \field{title}{Lithium enrichment threatens to curb fusion deployment}
+      \field{volume}{9}
+      \field{year}{2025}
+      \field{pages}{101997}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.joule.2025.101997
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2542435125001783
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2542435125001783
+      \endverb
+    \endentry
+    \entry{US_LithiumProcessing_2021}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=7f6cd5b5b184ad5dcf66198edda1fe77}{%
+           family={{U.S. Department of Energy}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Nuclear Security Administration}%
+      }
+      \list{location}{1}{%
+        {United States}%
+      }
+      \strng{namehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{fullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{fullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{bibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorbibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authornamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorfullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \strng{authorfullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Environmental Assessment for the Lithium Processing Facility at the Y-12 National Security Complex, Oak Ridge, Tennessee}
+      \field{type}{techreport}
+      \field{year}{2021}
+      \field{pages}{123}
+      \range{pages}{1}
+    \endentry
+    \entry{KyotoFusioneering2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=2f255ff0bd5153f8dd6bd8b316dd20cd}{%
+           family={{Kyoto Fusioneering}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f255ff0bd5153f8dd6bd8b316dd20cd}
+      \strng{fullhash}{2f255ff0bd5153f8dd6bd8b316dd20cd}
+      \strng{fullhashraw}{2f255ff0bd5153f8dd6bd8b316dd20cd}
+      \strng{bibnamehash}{2f255ff0bd5153f8dd6bd8b316dd20cd}
+      \strng{authorbibnamehash}{2f255ff0bd5153f8dd6bd8b316dd20cd}
+      \strng{authornamehash}{2f255ff0bd5153f8dd6bd8b316dd20cd}
+      \strng{authorfullhash}{2f255ff0bd5153f8dd6bd8b316dd20cd}
+      \strng{authorfullhashraw}{2f255ff0bd5153f8dd6bd8b316dd20cd}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-02-13}
+      \field{title}{Kyoto Fusioneering EU Secures Major Research Grant from BMBF}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://kyotofusioneering.com/en/news/2024/12/04/2725
+      \endverb
+      \verb{url}
+      \verb https://kyotofusioneering.com/en/news/2024/12/04/2725
+      \endverb
+    \endentry
+    \entry{farajiamiriMultiobjectiveOptimizationRenewable2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=9c10e355250cc5aa9ea1b64d8d59814a}{%
+           family={Farajiamiri},
+           familyi={F\bibinitperiod},
+           given={Mina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=71f35284f9bf8183d3b1d7df24671421}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Jörn-Christian},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=e906830fe857a527dd93280d2955ddb3}{%
+           family={Walther},
+           familyi={W\bibinitperiod},
+           given={Grit},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f09e7ccc0aa708cec17ddf4fc6308622}
+      \strng{fullhash}{0422b57b7df91a1d6c6d195e96ec581c}
+      \strng{fullhashraw}{0422b57b7df91a1d6c6d195e96ec581c}
+      \strng{bibnamehash}{0422b57b7df91a1d6c6d195e96ec581c}
+      \strng{authorbibnamehash}{0422b57b7df91a1d6c6d195e96ec581c}
+      \strng{authornamehash}{f09e7ccc0aa708cec17ddf4fc6308622}
+      \strng{authorfullhash}{0422b57b7df91a1d6c6d195e96ec581c}
+      \strng{authorfullhashraw}{0422b57b7df91a1d6c6d195e96ec581c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Energy}
+      \field{title}{Multi-objective optimization of renewable fuel supply chains regarding cost, land use, and water use}
+      \field{volume}{349}
+      \field{year}{2023}
+      \field{pages}{121652}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.apenergy.2023.121652
+      \endverb
+    \endentry
+    \entry{mavrotasEffectiveImplementationConstraint2009}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=576760c68fc2e21f2397597258c633a2}{%
+           family={Mavrotas},
+           familyi={M\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{576760c68fc2e21f2397597258c633a2}
+      \strng{fullhash}{576760c68fc2e21f2397597258c633a2}
+      \strng{fullhashraw}{576760c68fc2e21f2397597258c633a2}
+      \strng{bibnamehash}{576760c68fc2e21f2397597258c633a2}
+      \strng{authorbibnamehash}{576760c68fc2e21f2397597258c633a2}
+      \strng{authornamehash}{576760c68fc2e21f2397597258c633a2}
+      \strng{authorfullhash}{576760c68fc2e21f2397597258c633a2}
+      \strng{authorfullhashraw}{576760c68fc2e21f2397597258c633a2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Mathematics and Computation}
+      \field{number}{2}
+      \field{title}{Effective implementation of the $\varepsilon$-constraint method in Multi-Objective Mathematical Programming problems}
+      \field{volume}{213}
+      \field{year}{2009}
+      \field{pages}{455\bibrangedash 465}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.amc.2009.03.037
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

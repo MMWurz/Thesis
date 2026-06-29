@@ -1,0 +1,42 @@
+\babel@toc {american}{}\relax 
+\contentsline {chapter}{Abstract}{ii}{Doc-Start}%
+\contentsline {chapter}{Kurzfassung}{iii}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction \& Motivation}{2}{section.1.1}%
+\contentsline {chapter}{\numberline {2}State of the art and progress beyond}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Technological background}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}The reaction}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}The fuel}{3}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Tritium procurement}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Tritium out of Breeding blankets}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Tritium out of CANDU reactors}{6}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Lithium procurement}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}COLEX-process}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Current alternative processes}{8}{subsection.2.3.2}%
+\contentsline {subsubsection}{\nonumberline Chemical exchange (liquid phases)}{8}{subsubsection*.4}%
+\contentsline {subsubsection}{\nonumberline Displacement chromatography}{8}{subsubsection*.5}%
+\contentsline {subsubsection}{\nonumberline Electrochemical exchange}{9}{subsubsection*.6}%
+\contentsline {subsection}{\numberline {2.3.3}Current investment environment}{9}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Supply chains}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Multi-Objective-Optimization Modelling (MOO)}{10}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Different Methods of MOO}{10}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Objectives}{10}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Economical}{10}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Ecological}{10}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Supply risks (EU)}{10}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Solution methods}{11}{subsection.2.5.6}%
+\contentsline {chapter}{\numberline {3}Methodology}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Supply chains/ Flowcharts}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Mathematical formulation}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Objective functions}{12}{subsection.3.2.1}%
+\contentsline {subsubsection}{\nonumberline \textit {Cost minimization objective function} Economical aspects}{12}{subsubsection*.7}%
+\contentsline {subsubsection}{\nonumberline Ecological aspects}{12}{subsubsection*.8}%
+\contentsline {subsubsection}{\nonumberline Supply risk (EU)}{12}{subsubsection*.9}%
+\contentsline {subsection}{\numberline {3.2.2}Constraints}{13}{subsection.3.2.2}%
+\contentsline {subsubsection}{\nonumberline Constraint 1}{13}{subsubsection*.10}%
+\contentsline {section}{\numberline {3.3}Solution method}{13}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Scenarios}{14}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Results}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{16}{chapter.6}%
+\contentsline {chapter}{\nonumberline Bibliography}{17}{chapter*.11}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
