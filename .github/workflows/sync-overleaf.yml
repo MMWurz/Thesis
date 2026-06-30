@@ -15,12 +15,10 @@ jobs:
       - name: Push to Overleaf
         env:
           OVERLEAF_URL: ${{ secrets.OVERLEAF_GIT_URL }}
-          OVERLEAF_EMAIL: ${{ secrets.OVERLEAF_EMAIL }}
-          OVERLEAF_PASSWORD: ${{ secrets.OVERLEAF_PASSWORD }}
+          OVERLEAF_TOKEN: ${{ secrets.OVERLEAF_TOKEN }}
         run: |
           git config user.email "ci@sync"
           git config user.name "GitHub Sync"
-          ENCODED_EMAIL=$(python3 -c "import urllib.parse; print(urllib.parse.quote('$OVERLEAF_EMAIL'))")
           PROTO="${OVERLEAF_URL%%://*}"
           REST="${OVERLEAF_URL#*://}"
-          git push "${PROTO}://${ENCODED_EMAIL}:${OVERLEAF_PASSWORD}@${REST}" HEAD:master --force
+          git push "${PROTO}://git:${OVERLEAF_TOKEN}@${REST}" HEAD:master --force
