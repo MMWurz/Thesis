@@ -21,4 +21,4 @@ jobs:
           git config user.name "GitHub Sync"
           PROTO="${OVERLEAF_URL%%://*}"
           REST="${OVERLEAF_URL#*://}"
-          git push "${PROTO}://git:${OVERLEAF_TOKEN}@${REST}" HEAD:master --force
+          git push "${PROTO}://git:${OVERLEAF_TOKEN}@${REST}" HEAD:main --force
