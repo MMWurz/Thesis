@@ -1,0 +1,26 @@
+name: Sync to Overleaf
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to Overleaf
+        env:
+          OVERLEAF_URL: ${{ secrets.OVERLEAF_GIT_URL }}
+          OVERLEAF_EMAIL: ${{ secrets.OVERLEAF_EMAIL }}
+          OVERLEAF_PASSWORD: ${{ secrets.OVERLEAF_PASSWORD }}
+        run: |
+          git config user.email "ci@sync"
+          git config user.name "GitHub Sync"
+          ENCODED_EMAIL=$(python3 -c "import urllib.parse; print(urllib.parse.quote('$OVERLEAF_EMAIL'))")
+          PROTO="${OVERLEAF_URL%%://*}"
+          REST="${OVERLEAF_URL#*://}"
+          git push "${PROTO}://${ENCODED_EMAIL}:${OVERLEAF_PASSWORD}@${REST}" HEAD:master --force
