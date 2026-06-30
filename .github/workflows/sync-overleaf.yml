@@ -21,4 +21,8 @@ jobs:
           git config user.name "GitHub Sync"
           PROTO="${OVERLEAF_URL%%://*}"
           REST="${OVERLEAF_URL#*://}"
-          git push "${PROTO}://git:${OVERLEAF_TOKEN}@${REST}" HEAD:main --force
+          git remote add overleaf "${PROTO}://git:${OVERLEAF_TOKEN}@${REST}"
+          git fetch overleaf main
+          git checkout -b overleaf-sync overleaf/main
+          git merge -X theirs master --allow-unrelated-histories -m "Sync from GitHub"
+          git push overleaf HEAD:main
