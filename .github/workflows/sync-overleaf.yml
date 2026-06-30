@@ -2,7 +2,7 @@ name: Sync to Overleaf
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   sync:
